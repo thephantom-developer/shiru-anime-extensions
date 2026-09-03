@@ -1,0 +1,18 @@
+[
+  {
+    "id": "tsukihime",
+    "name": "TsukiHime",
+    "version": "1.0.0",
+    "main": "sources/tsuki",
+    "update": "gh:user/shiru-anime-extensions/tsukisearch",
+    "type": "torrent",
+    "speed": "fast",
+    "accuracy": "high",
+    "nsfw": false,
+    "regions": [
+      "US"
+    ],
+    "description": "TsukiHime anime torrent database API source with AniList/AniDB ID matching.",
+    "icon": "https://tsukihime.org/favicon.ico"
+  }
+]

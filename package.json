@@ -1,0 +1,27 @@
+{
+  "name": "shiru-anime-extensions",
+  "version": "1.0.0",
+  "description": "Community-maintained extensions for Shiru Anime Streaming App targeting top torrent sources",
+  "main": "index.json",
+  "type": "module",
+  "scripts": {
+    "test": "node test/runner.js",
+    "start": "npx -y serve dashboard"
+  },
+  "keywords": [
+    "shiru",
+    "shiru-extensions",
+    "anime",
+    "torrents",
+    "nyaa",
+    "seadex",
+    "animetosho",
+    "tsukihime",
+    "nekobt",
+    "tokyotoshokan",
+    "anidex"
+  ],
+  "author": "Antigravity Community",
+  "license": "MIT",
+  "devDependencies": {}
+}

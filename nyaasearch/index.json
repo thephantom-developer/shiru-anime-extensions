@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nyaa",
+    "name": "Nyaa.si",
+    "version": "1.0.0",
+    "main": "sources/nyaa",
+    "update": "gh:user/shiru-anime-extensions/nyaasearch",
+    "type": "torrent",
+    "speed": "moderate",
+    "accuracy": "medium",
+    "nsfw": false,
+    "regions": [
+      "NL",
+      "US"
+    ],
+    "description": "Public anime torrent indexer (Nyaa.si) RSS & search source for Shiru.",
+    "icon": "https://nyaa.si/static/favicon.png"
+  },
+  {
+    "id": "sukebei",
+    "name": "Sukebei.moe",
+    "version": "1.0.0",
+    "main": "sources/sukebei",
+    "update": "gh:user/shiru-anime-extensions/nyaasearch",
+    "type": "torrent",
+    "speed": "moderate",
+    "accuracy": "medium",
+    "nsfw": true,
+    "regions": [
+      "LU",
+      "DE"
+    ],
+    "description": "Adult anime torrent indexer (Sukebei.moe) search source for Shiru.",
+    "icon": "https://sukebei.nyaa.si/static/favicon.png"
+  }
+]
