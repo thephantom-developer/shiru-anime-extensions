@@ -1,0 +1,15 @@
+[
+  {
+    "id": "tokyotoshokan",
+    "name": "TokyoToshokan",
+    "version": "1.0.0",
+    "main": "sources/tokyo",
+    "update": "gh:thephantom-developer/shiru-anime-extensions/tokyosearch",
+    "type": "torrent",
+    "speed": "moderate",
+    "accuracy": "medium",
+    "unregulated": true,
+    "regions": ["US"],
+    "description": "Tokyo Toshokan anime torrent listing aggregator with RSS feed support."
+  }
+]

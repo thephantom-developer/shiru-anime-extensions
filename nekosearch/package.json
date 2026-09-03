@@ -1,0 +1,8 @@
+{
+  "name": "@thephantom-developer/nekosearch",
+  "version": "1.0.0",
+  "description": "nekoBT Extension for Shiru",
+  "license": "GPL-3.0",
+  "main": "index.json",
+  "types": "sources/index.d.ts"
+}

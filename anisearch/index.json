@@ -1,0 +1,24 @@
+[
+  {
+    "id": "seadex",
+    "name": "SeaDex",
+    "version": "1.0.0",
+    "main": "sources/seadex",
+    "update": "gh:thephantom-developer/shiru-anime-extensions/anisearch",
+    "type": "torrent",
+    "speed": "moderate",
+    "accuracy": "high",
+    "regions": ["US", "JP"]
+  },
+  {
+    "id": "animetosho-new",
+    "name": "Anime Tosho",
+    "version": "1.0.0",
+    "main": "sources/tosho",
+    "update": "gh:thephantom-developer/shiru-anime-extensions/anisearch",
+    "type": "torrent",
+    "speed": "fast",
+    "accuracy": "high",
+    "regions": ["US", "JP", "CN", "KR"]
+  }
+]

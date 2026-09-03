@@ -1,0 +1,8 @@
+{
+  "name": "@thephantom-developer/nyaasearch",
+  "version": "1.0.0",
+  "description": "Nyaa and Sukebei Extensions for Shiru",
+  "license": "GPL-3.0",
+  "main": "index.json",
+  "types": "sources/index.d.ts"
+}

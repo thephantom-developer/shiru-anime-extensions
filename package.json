@@ -1,18 +1,19 @@
 {
   "name": "shiru-anime-extensions",
   "version": "1.0.0",
-  "description": "Community-maintained extensions for Shiru Anime Streaming App targeting top torrent sources",
+  "description": "Community extensions for Shiru App - Top anime torrent sources",
+  "license": "GPL-3.0",
   "main": "index.json",
-  "type": "module",
-  "scripts": {
-    "test": "node test/runner.js",
-    "start": "npx -y serve dashboard"
+  "author": "thephantom-developer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thephantom-developer/shiru-anime-extensions.git"
   },
   "keywords": [
     "shiru",
-    "shiru-extensions",
     "anime",
-    "torrents",
+    "torrent",
+    "extensions",
     "nyaa",
     "seadex",
     "animetosho",
@@ -20,8 +21,5 @@
     "nekobt",
     "tokyotoshokan",
     "anidex"
-  ],
-  "author": "Antigravity Community",
-  "license": "MIT",
-  "devDependencies": {}
+  ]
 }

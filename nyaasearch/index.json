@@ -1,0 +1,35 @@
+[
+  {
+    "id": "nyaa",
+    "name": "Nyaa",
+    "version": "1.0.0",
+    "main": "sources/nyaa.js",
+    "update": "gh:thephantom-developer/shiru-anime-extensions/nyaasearch",
+    "type": "torrent",
+    "speed": "slow",
+    "accuracy": "medium",
+    "regions": [
+      "NL"
+    ],
+    "nsfw": false,
+    "description": "Nyaa extension",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "id": "sukebei",
+    "name": "Sukebei",
+    "version": "1.0.0",
+    "main": "sources/sukebei.js",
+    "update": "gh:thephantom-developer/shiru-anime-extensions/nyaasearch",
+    "type": "torrent",
+    "speed": "slow",
+    "accuracy": "medium",
+    "regions": [
+      "LU",
+      "DE"
+    ],
+    "nsfw": true,
+    "description": "Sukebei extension",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "anidex",
+    "name": "AniDex",
+    "version": "1.0.0",
+    "main": "sources/anidex",
+    "update": "gh:thephantom-developer/shiru-anime-extensions/anidexsearch",
+    "type": "torrent",
+    "speed": "moderate",
+    "accuracy": "medium",
+    "unregulated": true,
+    "regions": ["US", "NL"],
+    "description": "AniDex anime and Japanese media torrent indexer with RSS search."
+  }
+]
