@@ -19,7 +19,7 @@ function assert(condition, message) {
 
 async function runTests() {
   console.log('==================================================')
-  console.log('🧪 Verifying Shiru Extension Suite (Flat Architecture)')
+  console.log('🧪 Verifying Shiru Extension Suite Path Specifications')
   console.log('==================================================\n')
 
   const rootIndexPath = path.join(ROOT_DIR, 'index.json')
@@ -36,9 +36,10 @@ async function runTests() {
     assert(!!sourceConfig.version, '  Has version')
     assert(sourceConfig.type === 'torrent', '  Type is torrent')
     assert(typeof sourceConfig.main === 'string', '  Main path defined')
+    assert(!sourceConfig.main.endsWith('.js'), '  Main path does NOT end with .js (Shiru app appends .js automatically)')
 
-    const sourceJsPath = path.join(ROOT_DIR, sourceConfig.main)
-    assert(fs.existsSync(sourceJsPath), `  Source JS file [${sourceConfig.main}] exists`)
+    const sourceJsPath = path.join(ROOT_DIR, `${sourceConfig.main}.js`)
+    assert(fs.existsSync(sourceJsPath), `  Source JS file [${sourceConfig.main}.js] exists`)
 
     try {
       const fileUrl = pathToFileURL(sourceJsPath).href
